@@ -1,0 +1,66 @@
+:root {
+  --color-bg-cream: #fffaf3;
+  --color-rose-soft: #f8dee3;
+  --color-blush: #efd0d6;
+  --color-yellow-soft: #f8e7bd;
+  --color-yellow-main: #f2c76b;
+  --color-yellow-deep: #d99a42;
+  --color-amber-glow: #f7d8a3;
+  --color-leaf: #4d6f5b;
+  --color-earth: #4d3324;
+  --color-text: #2b1f2d;
+  --color-white: #ffffff;
+  --color-sunset-sky: #8ca9bb;
+  --color-sunset-peach: #f5d6bf;
+  --color-sunset-coral: #d26d6c;
+  --color-sunset-amber: #efb26c;
+  --color-sunset-horizon: #f8e7c8;
+  --color-sunset-dusk: #60476a;
+  --color-grass-deep: #234f3c;
+  --color-grass-mid: #5d7f5c;
+  --color-soil: #664735;
+  --font-heading: 'Georgia', 'Times New Roman', serif;
+  --font-body: 'Segoe UI', 'Helvetica Neue', sans-serif;
+
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background: linear-gradient(180deg, #fffaf3 0%, #fef1e7 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(circle at top, rgba(248, 222, 227, 0.72), transparent 30%),
+    linear-gradient(180deg, #fffaf3 0%, #fdf0e6 100%);
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
+
+img {
+  max-width: 100%;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
