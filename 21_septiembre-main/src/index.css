@@ -36,13 +36,19 @@
 }
 
 html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
 body {
-  min-width: 320px;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
   min-height: 100vh;
   margin: 0;
+  overflow-x: hidden;
   background:
     radial-gradient(circle at top, rgba(248, 222, 227, 0.72), transparent 30%),
     linear-gradient(180deg, #fffaf3 0%, #fdf0e6 100%);
@@ -62,5 +68,8 @@ select {
 }
 
 #root {
+  width: 100%;
+  max-width: 100%;
   min-height: 100vh;
+  overflow-x: hidden;
 }
